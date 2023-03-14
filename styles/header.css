@@ -1,19 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-* li {
-    list-style: none;
-}
-* a {
-    text-decoration: none;
-}
-
-/*header-----------------------------------------------------------------------------------------------------------*/
-
 .header {
-    width: 1160px;
+    width: 72.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -99,7 +85,7 @@
     background-image: linear-gradient(180deg, #bc9cff, #8ba4f9);
 }
 .header .header-blocks .header-buttons .register-btn {
-    width: 196px;
+    width: 12.25rem;
     height: 34px;
     background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
     margin: 0 0 0 10px;

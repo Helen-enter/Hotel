@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/select-room.css">
+    <title>Rooms</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo"><img class="header-logo" src="../assets/img/Logo.png" alt="toxin-hotel"/></div>
+        <div class="header-blocks">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a class="header-element" href="#">О нас</a></li>
+                    <li><a class="header-element dropdown-toggle" href="#">Услуги</a></li>
+                    <li><a class="header-element" href="#">Вакансии</a></li>
+                    <li><a class="header-element" href="#">Новости</a></li>
+                    <li><a class="header-element dropdown-toggle" href="#">Соглашения</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <div class="btn login-btn"><a class="login" href="#">Войти</a></div>
+                <div class="btn register-btn"><a class="register" href="#">Зарегистрироваться</a></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main-wrapper">
+        <div class="filter-block">
+            <div class="dates-stay">
+                <p class="filter-block__title dates-stay__title">даты пребывания в отеле</p>
+                <label>
+                    <input type="date">
+                </label>
+            </div>
+            <div class="guests">
+                <p class="filter-block__title guests__title">гости</p>
+                <label>
+                    <input type="number">
+                </label>
+            </div>
+            <div class="price-range">
+                <p class="filter-block__title">диапозон цены</p>
+                <label>
+                    <input type="range">
+                </label>
+            </div>
+            <div class="house-rules">
+                <p class="filter-block__title">правила дома</p>
+                <ul class="house-rules__list">
+                    <li class="house-rules__el">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                        <p>можно курить</p>
+                    </li>
+                    <li class="house-rules__el">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                        <p>можно с питомцами</p>
+                    </li>
+                    <li class="house-rules__el">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                        <p>можно пригласить гостей (до 10 человек)</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="availability">
+                <p class="filter-block__title">доступность</p>
+                <ul class="availability-list">
+                    <li class="availability__el">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                        <p class="availability-title">широкий коридор</p>
+                        <p class="availability-description">Ширина коридоров в номере не менее 91 см.</p>
+                    </li>
+                    <li class="availability__el">
+                        <label>
+                            <input type="checkbox">
+                        </label>
+                        <p class="availability-title">помощник для инвалидов</p>
+                        <p class="availability-description">На 1 этаже вас встретит специалист  и проводит до номера.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="room-comfort">
+                <p class="filter-block__title room-comfort__title">удобство номера</p>
+                <label>
+                    <input type="number">
+                </label>
+            </div>
+            <div class="additional-amenities">
+                <p class="filter-block__title additional-amenities__title">дополнительные удобства</p>
+            </div>
+        </div>
+        <div class="rooms">
+
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer-wrapper">
+            <div class="block-1">
+                <div class="logo"><img src="../assets/img/Logo.png" alt="toxin-hotel"/></div>
+                <p>
+                    Бронирование номеров в лучшем
+                    отеле 2019 года по версии
+                    ассоциации «Отельные взгляды»
+                </p>
+            </div>
+            <div class="block-2"><b>Навигация</b>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Служба поддержки</a></li>
+                    <li><a href="#">Услуги</a></li>
+                </ul>
+            </div>
+            <div class="block-3"><b>О нас</b>
+                <ul>
+                    <li><a href="#">О сервисе</a></li>
+                    <li><a href="#">Наша команда</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Инвесторы</a></li>
+                </ul>
+            </div>
+            <div class="block-4"><b>Служба поддержки</b>
+                <ul>
+                    <li><a href="#">Соглашения</a></li>
+                    <li><a href="#">Сообщества</a></li>
+                    <li><a href="#">Связь с нами</a></li>
+                </ul>
+            </div>
+            <div class="block-5"><b>Подписка</b>
+                <p>
+                    Получайте специальные
+                    предложения и новости сервиса
+                </p>
+                <div class="field-email">
+                    <label>
+                        <input class="field-input" placeholder="Email"/>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="hr-block">
+            <div>
+                <p>Copyright c 2018 Toxin отель. Все права защищены.</p>
+            </div>
+            <div class="website-icons">
+                <div><img src="../assets/img/twitter.png" alt="twitter"/></div>
+                <div><img src="../assets/img/facebook.png" alt="facebook"/></div>
+                <div><img src="../assets/img/instagram.png" alt="instagram"/></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="../data/data-rooms.js"></script>
+</body>
+</html>

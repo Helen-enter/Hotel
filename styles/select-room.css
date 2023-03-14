@@ -1,0 +1,13 @@
+.main-wrapper {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.filter-block {
+    width: 30%;
+}
+
+.rooms {
+    width: 60%;
+}

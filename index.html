@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -12,9 +13,9 @@
 <body>
 <header>
     <div class="header">
-        <div class="logo"><img src="assets/img/Logo.png" alt="toxin-hotel"/></div>
+        <div class="logo"><img class="header-logo" src="assets/img/Logo.png" alt="toxin-hotel"/></div>
         <div class="header-blocks">
-            <nav>
+            <nav class="nav">
                 <ul class="nav-list">
                     <li><a class="header-element" href="#">О нас</a></li>
                     <li><a class="header-element dropdown-toggle" href="#">Услуги</a></li>
@@ -23,7 +24,6 @@
                     <li><a class="header-element dropdown-toggle" href="#">Соглашения</a></li>
                 </ul>
             </nav>
-            <div class="a"></div>
             <div class="header-buttons">
                 <div class="btn login-btn"><a class="login" href="#">Войти</a></div>
                 <div class="btn register-btn"><a class="register" href="#">Зарегистрироваться</a></div>
@@ -58,7 +58,7 @@
                             <input placeholder="Сколько гостей">
                         </label>
                     </div>
-                    <div class="select-room"><a>подобрать номер</a>
+                    <div class="select-room"><a href="pages/select_room.html">подобрать номер</a>
                         <svg class="btn-select-room" width="18px" height="18px" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9 0.984375L17.0156 9L9 17.0156L7.59375 15.6094L13.1719 9.98438H0.984375V8.01562H13.1719L7.59375 2.39062L9 0.984375Z"></path>
                         </svg>
